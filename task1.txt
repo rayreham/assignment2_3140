@@ -1,0 +1,66 @@
+rayre@DESKTOP-KEV6RRI MINGW64 ~ (staging)
+$ cd /c/Users/rayre/OneDrive/Desktop/assignment2_3140
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (staging)
+$ git init
+Initialized empty Git repository in C:/Users/rayre/OneDrive/Desktop/assignment2_3140/.git/
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ touch README.md
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git add README.md
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git commit -m "first commit"
+[master (root-commit) 7da6318] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git remote add origin https://github.com/rayreham/assignment2_3140.git
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 206 bytes | 206.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rayreham/assignment2_3140.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ nano README.md
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ nano README.md
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git commit -m "made changes to file"
+[master 2014560] made changes to file
+ 1 file changed, 1 insertion(+)
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$ git push -u origin master
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/rayreham/assignment2_3140.git
+   7da6318..2014560  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+rayre@DESKTOP-KEV6RRI MINGW64 ~/OneDrive/Desktop/assignment2_3140 (master)
+$
+
